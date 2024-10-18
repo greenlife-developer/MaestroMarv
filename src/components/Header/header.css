@@ -1,0 +1,48 @@
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 99px;
+  align-items: center;
+  /* background-color: #fff; */
+}
+
+.navigation-items ul {
+  display: flex;
+  gap: 26px;
+  list-style: none;
+}
+
+.navigation-items ul li a,
+.reglog a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 32px;
+  color: white;
+  font-weight: 400;
+}
+
+.navigation-items ul li a.active,
+.reglog a.active {
+  font-weight: 800;
+}
+
+.reglog {
+  display: flex;
+  gap: 24px;
+}
+
+.reglog .reg {
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 10px 25px;
+}
+
+.reglog .log {
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 10px 25px;
+  background: white;
+  color: black;
+}

@@ -1,0 +1,60 @@
+.repairs_section_1 {
+  padding: 200px;
+}
+
+.repair_row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+  gap: 70px;
+}
+
+.repair_row .repair_row_text h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.88px;
+  letter-spacing: -0.05em;
+  margin-bottom: 24px;
+}
+
+.repair_row .repair_row_text p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 70px;
+}
+
+.repair_row .repair_row_text button {
+  background: linear-gradient(
+    76.9deg,
+    #fb2238 -1.85%,
+    #028eed -1.83%,
+    #01cbf9 143.99%
+  );
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  border: none;
+  padding: 24px 63px;
+  border-radius: 12px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.repairs_section_2 {
+  width: 100%;
+  position: relative;
+  margin-bottom: 260px;
+}
+
+.repairs_section_2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.repairs_section_2 .repairs_cta_card {
+  position: absolute;
+  bottom: 30%;
+  right: 20%;
+}

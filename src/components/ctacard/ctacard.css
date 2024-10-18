@@ -1,0 +1,37 @@
+.cta_card {
+  background: linear-gradient(233.8deg, #01cbf9 -7.6%, #028eed 52.19%);
+  padding: 87px 133px;
+}
+
+.cta_card h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.05em;
+  margin-bottom: 10px;
+}
+
+.cta_card p {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  letter-spacing: -0.02em;
+}
+
+.cta_card a {
+  background: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 16px 39px;
+  border-radius: 8px;
+  border: none;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 32px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}

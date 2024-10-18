@@ -1,0 +1,188 @@
+.service-discription {
+  margin: 166px 200px 40px;
+  position: relative;
+}
+
+.service-discription-header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #1e1e1e;
+  margin-bottom: 50px;
+  width: 50%;
+}
+
+.service-discription-body {
+  display: flex;
+  gap: 81px;
+}
+
+.topnotch {
+  margin-top: 26px;
+}
+
+.topnotch p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.topnotch a {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.service-discription ul {
+  display: flex;
+  gap: 26px;
+  list-style: none;
+  background-color: #028eed;
+  width: 90%;
+  padding: 77px 100px;
+  justify-content: space-between;
+  position: relative;
+  bottom: 120px;
+  left: 180px;
+}
+
+.service-discription ul li {
+  text-align: center;
+}
+
+.service-discription ul li h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+.service-discription ul li p {
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.about-us-container {
+  display: flex;
+  gap: 102px;
+  align-items: center;
+  padding-right: 193px;
+}
+
+.about-us h3 {
+  color: #028eed;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 25%;
+  margin-bottom: 12px;
+}
+
+.about-us h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -5%;
+  margin-bottom: 12px;
+}
+
+.about-us p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.about-us button {
+  background: linear-gradient(265.45deg, #01cbf9 -17.01%, #028eed 58.06%);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 24px 72px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.what-we-do {
+  background: #fbfbfb;
+  padding: 120px 228px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* gap: 160px; */
+  grid-row-gap: 100px;
+  grid-column-gap: 200px;
+}
+
+.what-we-do img {
+  padding: 35px 30px;
+  /* background-color: #01cbf9; */
+  background: #01cbf91a;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  animation-name: what-we-do-images;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  width: 100px;
+  height: 100px;
+}
+
+.what-we-do h1 {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -5%;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.what-we-do p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.need_a_repair {
+  width: 100%;
+  position: relative;
+}
+
+.need_a_repair img {
+  width: 100%;
+}
+
+.need_a_repair .need_a_repair_cta {
+  position: absolute;
+  top: 53%;
+  right: 190px;
+}
+
+.need_a_gadget {
+  position: relative;
+  bottom: 10px;
+  width: 100%;
+  /* height: 85vh; */
+  padding: 130px 0 0 680px;
+  background: #efefef;
+  overflow: hidden;
+  margin-bottom: 300px;
+}
+
+.need_a_gadget .need_a_gadget_cta {
+  position: absolute;
+  top: 33%;
+  left: 400px;
+}
+
+
+
+@media screen and (max-width: 430px) {
+  .navigation-items ul {
+    display: none;
+  }
+  .navigation-container {
+    padding: 15px;
+  }
+}

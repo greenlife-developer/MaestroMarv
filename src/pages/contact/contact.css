@@ -1,0 +1,147 @@
+.contact_section_1 {
+  padding: 120px 200px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background: rgba(247, 249, 250, 1);
+  gap: 32px;
+}
+
+.contact_section_1 .contact_info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact_section_1 .contact_card {
+  display: flex;
+  background-color: #fff;
+  gap: 24px;
+  padding: 46px 65px;
+  border-radius: 12px;
+}
+
+.contact_section_1 .contact_card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.38px;
+  letter-spacing: -0.03em;
+}
+
+.contact_section_1 .contact_card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+
+.contact_section_1 .contact_form {
+  background: #fff;
+  border-radius: 12px;
+  padding: 47px;
+}
+
+.contact_section_1 .contact_form > h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.38px;
+  letter-spacing: -0.03em;
+  margin-bottom: 4px;
+}
+
+.contact_section_1 .contact_form > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin-bottom: 24px;
+}
+
+.contact_section_1 .contact_form form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact_section_1 .contact_form .form_field {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.contact_section_1 .contact_form .form_field > div {
+  width: 100%;
+}
+
+.contact_section_1 .contact_form .form_field > div input,
+.contact_section_1 .contact_form .form_field > div textarea {
+  width: 100%;
+  padding: 14px 20px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -0.03em;
+  border-radius: 8px;
+  background: rgba(247, 249, 250, 1);
+  color: rgba(132, 132, 132, 1);
+}
+
+.contact_section_1 .contact_form .form_field > div label {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19.2px;
+  letter-spacing: -0.03em;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.contact_section_1 .contact_form form > button {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  text-transform: uppercase;
+  padding: 24px 45px;
+  border-radius: 12px;
+  background: linear-gradient(
+    76.9deg,
+    #fb2238 -1.85%,
+    #028eed -1.83%,
+    #01cbf9 143.99%
+  );
+  color: #fff;
+  border: none;
+  margin-top: 23px;
+  cursor: pointer;
+}
+
+.contact_section_2 {
+  padding: 0 120px 130px;
+  background: rgba(247, 249, 250, 1);
+}
+
+.contact_section_2 iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 12px;
+}
+
+
+.contact_section_3 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 260px;
+  }
+  
+  .contact_section_3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .contact_section_3 .contact_cta_card {
+    position: absolute;
+    bottom: 30%;
+    right: 20%;
+  }

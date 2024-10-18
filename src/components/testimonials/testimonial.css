@@ -1,0 +1,71 @@
+.customer_testimonials {
+  margin: 190px 380px;
+  text-align: center;
+}
+
+.customer_testimonials h1 {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.88px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.testimonial p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+.testimonial h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.38px;
+  margin-bottom: 8px;
+}
+
+.testimonial h5 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.63px;
+  margin-bottom: 30px;
+}
+
+.pagination-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  margin: 0 5px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #028eed;
+}
+
+.testimonial-container {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.testimonial-container.fade {
+  opacity: 0;
+}
+
+
