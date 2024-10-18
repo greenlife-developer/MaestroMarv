@@ -6,38 +6,38 @@ import Testimonials from "../../components/testimonials/Testimonials";
 import Faq from "../../components/faq/Faq";
 import Footer from "../../components/Footer/Footer";
 import CtaCard from "../../components/ctacard/CtaCard";
+import marvellous from "../../assets/images/team/marvellous.png";
+import jamiu from "../../assets/images/team/jamiu.png";
+import temilayo from "../../assets/images/team/temilayo.png";
+import praise from "../../assets/images/team/praise.png";
+import opeyemi from "../../assets/images/team/opeyemi.png";
 
 const About = () => {
   const team = [
     {
-      img: aboutimg,
-      name: "John Doe",
+      img: marvellous,
+      name: "Onaolapo Marvellous",
       role: "CEO",
     },
     {
-      img: aboutimg,
-      name: "John Doe",
-      role: "CEO",
+      img: jamiu,
+      name: "Ahmed Jamiu",
+      role: "Technical Engineer",
     },
     {
-      img: aboutimg,
-      name: "John Doe",
-      role: "CEO",
+      img: temilayo,
+      name: "Temilayo",
+      role: "Technical Engineer",
     },
     {
-      img: aboutimg,
-      name: "John Doe",
-      role: "CEO",
+      img: praise,
+      name: "Odiko Praise",
+      role: "Technical Engineer",
     },
     {
-      img: aboutimg,
-      name: "John Doe",
-      role: "CEO",
-    },
-    {
-      img: aboutimg,
-      name: "John Doe",
-      role: "CEO",
+      img: opeyemi,
+      name: "Afolabi Opeyemi",
+      role: "Software Developer",
     },
   ];
 
@@ -105,7 +105,7 @@ const About = () => {
             title="Need a repair?"
             description="Book an appointment with us today"
             buttonText="Book Now!"
-            buttonLink="/appointment"
+            buttonLink="/contact"
           />
         </div>
       </div>

@@ -136,7 +136,7 @@ const Contact = () => {
             title="Need help?"
             description="Book an appointment with us today"
             buttonText="Book Now!"
-            buttonLink="/appointment"
+            buttonLink="/contact"
           />
         </div>
       </div>

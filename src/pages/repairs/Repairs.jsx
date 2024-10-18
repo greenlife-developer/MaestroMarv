@@ -65,7 +65,7 @@ const Repairs = () => {
             title="Need a repair?"
             description="Book an appointment with us today"
             buttonText="Book Now!"
-            buttonLink="/appointment"
+            buttonLink="/contact"
           />
         </div>
       </div>
