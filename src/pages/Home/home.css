@@ -236,7 +236,7 @@
   .about-us-container > div > img {
     width: 500px;
     object-fit: cover;
-    background-color: red; 
+    /* background-color: red;  */
   }
 
   /* .about-us p {

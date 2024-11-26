@@ -70,6 +70,7 @@
   .mother-container {
     background-size: cover;
     background-position: center;
+    height: 600px;
   }
 
   .welcome {
