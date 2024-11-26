@@ -36,7 +36,7 @@ const Faq = () => {
         {faqItems.map((faq, index) => (
           <FaqItem key={index} faq={faq} />
         ))}
-      </div>
+      </div> 
     </div>
   );
 };

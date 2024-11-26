@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/logo.svg"
 
 export default function Header() {
-  return (
+  return ( 
     <nav class="navigation-container">
       <div>
         <img src={logo} alt="logo" />

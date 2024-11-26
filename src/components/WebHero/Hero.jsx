@@ -5,7 +5,7 @@ import "./hero.css";
 export default function Hero({ h1, h3, p, span, button }) {
   const h1Parts = h1?.split(span);
 
-  return (
+  return ( 
     <div className="mother-container">
       <Header />
       <div className="welcome">

@@ -54,7 +54,7 @@ const Testimonials = () => {
       setIsAnimating(false);
     }, 500); // Animation duration in sync with CSS transition
   };
-
+ 
   return (
     <div className="customer_testimonials">
       <h1>What our Clients Say</h1>

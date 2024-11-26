@@ -46,3 +46,28 @@
   background: white;
   color: black;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navigation-container {
+    padding: 20px 50px;
+  }
+
+  .navigation-items ul {
+    gap: 20px;
+  }
+
+  .navigation-items ul li a,
+  .reglog a {
+    font-size: 11px;
+    line-height: 28px;
+  }
+
+  .reglog {
+    gap: 16px;
+  }
+
+  .reglog .reg,
+  .reglog .log {
+    padding: 8px 20px;
+  }
+}

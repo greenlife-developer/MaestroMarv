@@ -177,12 +177,129 @@
 }
 
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .service-discription {
+    margin: 100px 20px 30px;
+  }
+
+  .service-discription-header h1 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .service-discription-body {
+    /* flex-direction: column; */
+    gap: 40px;
+  }
+
+  .topnotch p, .topnotch a {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .service-discription ul {
+    /* flex-direction: column; */
+    gap: 20px;
+    padding: 50px 40px;
+    width: 100%;
+    left: 0;
+  }
+
+  .service-discription ul li h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .service-discription ul li p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .about-us-container {
+    flex-direction: flex;
+    padding: 0;
+    gap: 20px;
+  }
+
+  .about-us h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .about-us p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .about-us-container > div > img {
+    width: 500px;
+    object-fit: cover;
+    background-color: red; 
+  }
+
+  /* .about-us p {
+    font-size: 18px;
+    line-height: 28px;
+  } */
+
+  .about-us button {
+    padding: 20px 40px;
+    font-size: 14px;
+  }
+
+  .what-we-do {
+    padding: 60px 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 80px;
+    margin-top: 30px;
+  }
+
+  .what-we-do img {
+    padding: 20px ;
+
+  }
+
+  .what-we-do h1 {
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: -5%;
+    font-weight: 700;
+  }
+  
+  .what-we-do p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+  }
+
+  .need_a_repair .need_a_repair_cta {
+    top: 50%;
+    right: 20px;
+  }
+
+  .need_a_gadget {
+    padding: 80px 0 0 20px;
+    margin-bottom: 100px;
+  }
+
+  .need_a_gadget .need_a_gadget_cta {
+    top: 30%;
+    left: 20px;
+  }
+}
+
 
 @media screen and (max-width: 430px) {
   .navigation-items ul {
     display: none;
   }
+
   .navigation-container {
     padding: 15px;
   }
+
 }
+
+

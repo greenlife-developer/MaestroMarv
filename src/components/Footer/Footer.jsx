@@ -6,7 +6,7 @@ import linkedin from "../../assets/images/linkedin.svg";
 import youtube from "../../assets/images/youtube.svg";
 import "./footer.css";
 import { Link } from "react-router-dom";
-
+ 
 const Footer = () => {
   const year = new Date().getFullYear();
   return (

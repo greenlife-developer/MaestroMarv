@@ -130,7 +130,7 @@ export default function Home() {
           />
         </div>
       </div>
-
+ 
       <div className="need_a_gadget">
         <div className="need_a_gadget_cta">
           <CtaCard
