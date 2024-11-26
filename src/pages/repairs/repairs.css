@@ -58,3 +58,35 @@
   bottom: 30%;
   right: 20%;
 }
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .repairs_section_1 {
+    padding: 100px 20px;
+  }
+
+  .repair_row {
+    margin-bottom: 100px;
+    gap: 20px;
+  }
+
+  .repair_row .repair_row_text h3 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .repair_row .repair_row_text p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 50px;
+  }
+
+  .repairs_section_2 .repairs_cta_card {
+    bottom: 30%;
+    right: 10%;
+  }
+
+}

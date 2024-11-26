@@ -7,9 +7,6 @@
       #000000 127.17%
     ),
     url("../../assets/images/hero-img.svg");
-  /* background-size: cover;  */
-  /* background-position: center; */
-  /* background-repeat: calc(); */
 }
 
 .welcome {
@@ -100,3 +97,6 @@
     font-size: 14px;
   }
 }
+
+
+
