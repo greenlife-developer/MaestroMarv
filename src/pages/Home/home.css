@@ -183,8 +183,9 @@
   }
 
   .service-discription-header h1 {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 36px;
+    /* background: blue; */
     margin-bottom: 30px;
     width: 100%;
   }
@@ -195,8 +196,8 @@
   }
 
   .topnotch p, .topnotch a {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 21px;
   }
 
   .service-discription ul {
@@ -208,13 +209,13 @@
   }
 
   .service-discription ul li h1 {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 28px;
   }
 
   .service-discription ul li p {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 21px;
   }
 
   .about-us-container {
@@ -263,15 +264,15 @@
   }
 
   .what-we-do h1 {
-    font-size: 24px !important;
+    font-size: 24px;
     line-height: 30px;
     letter-spacing: -5%;
     font-weight: 700;
   }
   
   .what-we-do p {
-    font-size: 14px !important;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 21px;
     font-weight: 400;
   }
 
@@ -289,6 +290,7 @@
     top: 30%;
     left: 20px;
   }
+
 }
 
 

@@ -46,4 +46,15 @@
   .faq_container {
     margin: 0 50px 200px;
   }
-}
+
+  .faq-item .faq_question_answers h3 {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .faq-item .faq_question_answers p {
+    font-size: 14px;
+  }
+
+} 
+

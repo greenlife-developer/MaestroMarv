@@ -8,6 +8,6 @@ const CtaCard = ({ title, description, buttonText, buttonLink }) => {
       <a href={buttonLink}>{buttonText}</a>
     </div>
   );
-};
+}; 
 
 export default CtaCard;

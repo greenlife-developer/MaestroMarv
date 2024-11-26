@@ -68,15 +68,29 @@
   opacity: 0;
 }
 
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  
   .customer_testimonials {
     margin: 190px 50px;
     text-align: center;
   }
 
+  .customer_testimonials h1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
   .testimonial p {
     font-size: 16px;
+    line-height: 21px;
+  }
+
+  .testimonial h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .testimonial h5 {
+    font-size: 10px;
+    line-height: 14px;
   }
 }
