@@ -129,9 +129,9 @@
   .navigation-container.nav_visible .reglog {
     margin-top: 50px;
     flex-direction: column;
-    gap: 20px;
+    gap: 12px;
     padding: 0 0 10px;
-    border-bottom: 0.25px solid rgba(200, 200, 200, 1)
+    border-bottom: 0.25px solid rgba(200, 200, 200, 1);
   }
 
   .navigation-container.nav_visible .reglog {
@@ -161,6 +161,11 @@
     background: rgba(241, 241, 241, 1);
     border-radius: 8px;
     padding: 12px;
+  }
+
+  .navigation-items ul li a.active,
+  .reglog a.active {
+    font-weight: 400;
   }
 
   .reglog .log {

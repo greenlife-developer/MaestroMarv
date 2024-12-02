@@ -145,7 +145,7 @@
   right: 20%;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .contact_section_1 {
     padding: 120px 20px;
     gap: 20px;

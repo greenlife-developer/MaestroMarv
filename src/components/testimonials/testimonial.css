@@ -68,7 +68,7 @@
   opacity: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .customer_testimonials {
     margin: 190px 50px;
     text-align: center;
