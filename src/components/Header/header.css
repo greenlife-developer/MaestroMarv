@@ -47,7 +47,16 @@
   color: black;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+.mobile_logo,
+.menu_icon {
+  display: none;
+}
+
+.web_logo {
+  display: block;
+}
+
+@media screen and (max-width: 1024px) {
   .navigation-container {
     padding: 20px 50px;
   }
@@ -69,5 +78,112 @@
   .reglog .reg,
   .reglog .log {
     padding: 8px 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .navigation-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 20px;
+  }
+
+  .navigation-container.nav_visible {
+    position: fixed;
+    /* display: block; */
+    padding: 48px 48px 0;
+    align-items: normal;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    z-index: 999;
+    backdrop-filter: blur(4px);
+    background: #fff;
+    display: block;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+
+  .menu_logo_cancel {
+    display: flex;
+    align-items: center;
+    /* width: 200px; */
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .navigation-container.nav_visible .navigation-items,
+  .navigation-container.nav_visible .reglog,
+  .mobile_logo,
+  .menu_icon {
+    display: block;
+  }
+
+  .navigation-container.nav_visible .menu_icon {
+    display: none;
+  }
+
+  .navigation-container.nav_visible .navigation-items ul,
+  .navigation-container.nav_visible .reglog {
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 0 10px;
+    border-bottom: 0.25px solid rgba(200, 200, 200, 1)
+  }
+
+  .navigation-container.nav_visible .reglog {
+    border-bottom: none;
+    gap: 8px;
+  }
+
+  .navigation-container.nav_visible .reglog {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation-items ul li a,
+  .reglog a {
+    /* padding: 12px; */
+    width: 100%;
+    color: #0b1223;
+  }
+
+  .navigation-items ul li {
+    border-radius: 8px;
+    padding: 12px;
+  }
+
+  .navigation-items ul li:has(a.active) {
+    background: rgba(241, 241, 241, 1);
+    border-radius: 8px;
+    padding: 12px;
+  }
+
+  .reglog .log {
+    background: linear-gradient(263.75deg, #01cbf9 -5.88%, #028eed 22.9%);
+    border: none;
+    color: #fff;
+  }
+
+  .reglog .reg {
+    border: 0.5px solid rgba(11, 18, 35, 1);
+    border-radius: 8px;
+    padding: 10px 25px;
+    background: white;
+    color: black;
+  }
+
+  .navigation-container.nav_visible .reglog a {
+    text-align: center;
+  }
+
+  .navigation-items,
+  .reglog,
+  .web_logo {
+    display: none;
   }
 }
