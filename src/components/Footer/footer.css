@@ -66,3 +66,22 @@
   }
   
 } 
+
+
+@media screen and (max-width: 430px) {
+  .footer_container {
+    margin: 0 0 123px;
+  }
+
+  .footer_container .footer_items {
+    flex-direction: column;
+    padding: 0 0 60px;
+    margin: 0 24px;
+  }
+
+  .footer_container .footer_items .other_links ul {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+}

@@ -60,3 +60,18 @@
 
 }
 
+@media screen and (max-width: 430px) {
+  .cta_card {
+    padding: 40px 52px;
+  }
+
+  .cta_card h2 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  
+  .cta_card a {
+    font-size: 11px;
+    line-height: 29px;
+  }
+}
