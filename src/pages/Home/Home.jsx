@@ -23,11 +23,11 @@ export default function Home() {
         span="MaestroMarv"
         button="Explore"
       />
-      <div class="service-discription">
-        <div class="service-discription-header">
+      <div class="service-description">
+        <div class="service-description-header">
           <h1>we repair all laptops and phones</h1>
         </div>
-        <div class="service-discription-body">
+        <div class="service-description-body">
           <div>
             <img src={img1} alt="des img" />
           </div>
@@ -68,18 +68,17 @@ export default function Home() {
         <div class="about-us">
           <h3>ABOUT US</h3>
           <h1>Unleach Your Tech Potential</h1>
-          <p>
-            At Maestromarv, we combine a passion for technology with a deep
-            understanding of user needs.
-            <br />
-            <br />
-            <br />
-            Since 2019, we've been transforming tech frustrations into
-            fulfilling experiences for our customers in South-Western Nigeria.
-          </p>
-          <br />
-          <br />
-          <br />
+          <div className="para">
+            <p>
+              At Maestromarv, we combine a passion for technology with a deep
+              understanding of user needs.
+            </p>
+            <p>
+              Since 2019, we've been transforming tech frustrations into
+              fulfilling experiences for our customers in South-Western Nigeria.
+            </p>
+          </div>
+
           <button>Learn More</button>
         </div>
       </div>
@@ -130,8 +129,10 @@ export default function Home() {
           />
         </div>
       </div>
- 
+
       <div className="need_a_gadget">
+        <img src={img4} alt="" />
+
         <div className="need_a_gadget_cta">
           <CtaCard
             title="Need a Gadget?"
@@ -140,8 +141,6 @@ export default function Home() {
             buttonLink="/store"
           />
         </div>
-
-        <img src={img4} alt="" />
       </div>
 
       <Testimonials />

@@ -1,9 +1,9 @@
-.service-discription {
+.service-description {
   margin: 166px 200px 40px;
   position: relative;
 }
 
-.service-discription-header h1 {
+.service-description-header h1 {
   font-size: 36px;
   font-weight: 700;
   line-height: 44px;
@@ -12,7 +12,7 @@
   width: 50%;
 }
 
-.service-discription-body {
+.service-description-body {
   display: flex;
   gap: 81px;
 }
@@ -34,7 +34,7 @@
   font-weight: 600;
 }
 
-.service-discription ul {
+.service-description ul {
   display: flex;
   gap: 26px;
   list-style: none;
@@ -47,18 +47,18 @@
   left: 180px;
 }
 
-.service-discription ul li {
+.service-description ul li {
   text-align: center;
 }
 
-.service-discription ul li h1 {
+.service-description ul li h1 {
   color: white;
   font-weight: 700;
   font-size: 40px;
   line-height: 49px;
 }
 
-.service-discription ul li p {
+.service-description ul li p {
   color: white;
   font-weight: 400;
   font-size: 12px;
@@ -87,6 +87,14 @@
   line-height: 40px;
   letter-spacing: -5%;
   margin-bottom: 12px;
+}
+
+.about-us .para {
+  margin: 0 0 48px;
+}
+
+.about-us .para p{
+  margin: 0 0 36px;
 }
 
 .about-us p {
@@ -176,13 +184,12 @@
   left: 400px;
 }
 
-
 @media screen and (max-width: 1024px) {
-  .service-discription {
+  .service-description {
     margin: 100px 20px 30px;
   }
 
-  .service-discription-header h1 {
+  .service-description-header h1 {
     font-size: 24px;
     line-height: 36px;
     /* background: blue; */
@@ -190,17 +197,18 @@
     width: 100%;
   }
 
-  .service-discription-body {
+  .service-description-body {
     /* flex-direction: column; */
     gap: 40px;
   }
 
-  .topnotch p, .topnotch a {
+  .topnotch p,
+  .topnotch a {
     font-size: 16px;
     line-height: 21px;
   }
 
-  .service-discription ul {
+  .service-description ul {
     /* flex-direction: column; */
     gap: 20px;
     padding: 50px 40px;
@@ -208,12 +216,12 @@
     left: 0;
   }
 
-  .service-discription ul li h1 {
+  .service-description ul li h1 {
     font-size: 24px;
     line-height: 28px;
   }
 
-  .service-discription ul li p {
+  .service-description ul li p {
     font-size: 16px;
     line-height: 21px;
   }
@@ -259,8 +267,7 @@
   }
 
   .what-we-do img {
-    padding: 20px ;
-
+    padding: 20px;
   }
 
   .what-we-do h1 {
@@ -269,7 +276,7 @@
     letter-spacing: -5%;
     font-weight: 700;
   }
-  
+
   .what-we-do p {
     font-size: 16px;
     line-height: 21px;
@@ -290,19 +297,146 @@
     top: 30%;
     left: 20px;
   }
-
 }
-
 
 @media screen and (max-width: 430px) {
-  .navigation-items ul {
-    display: none;
+  .service-description {
+    margin: 48px 24px 30px;
+    /* width: 100%; */
   }
 
-  .navigation-container {
-    padding: 15px;
+  .service-description-header h1 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 30px;
+    width: 100%;
   }
 
+  .service-description-body {
+    flex-direction: column;
+    gap: 25px;
+    /* width: 100%; */
+  }
+
+  .service-description-body img {
+    width: 100%;
+  }
+
+  .topnotch {
+    margin-bottom: 45px;
+    margin-top: 20px;
+  }
+
+  .topnotch p,
+  .topnotch a {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .service-description ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding: 70px 60px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  }
+
+  .service-description ul li h1 {
+    font-size: 29px;
+    line-height: 36px;
+  }
+
+  .service-description ul li p {
+    font-size: 9px;
+    line-height: 11px;
+  }
+
+  .about-us-container {
+    flex-direction: column;
+  }
+
+  .about-us {
+    padding: 24px;
+  }
+
+  .about-us h1 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .about-us h3 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.63px;
+    letter-spacing: 0.25em;
+  }
+
+  .about-us .para {
+    margin: 0 0 24px;
+  }
+  
+  .about-us .para p{
+    margin: 0 0 24px;
+  }
+
+  .about-us p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+
+  .about-us-container > div > img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .about-us button {
+    padding: 20px 40px;
+    font-size: 14px;
+  }
+
+  .what-we-do {
+    padding: 36px 24px;
+    margin: 24px;
+    border-radius: 12px;
+    grid-template-columns: 1fr;
+    grid-row-gap: 48px;
+    margin-top: 30px;
+  }
+
+  .what-we-do img {
+    padding: 13px;
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+  }
+
+  .what-we-do h1 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .what-we-do p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .need_a_repair .need_a_repair_cta {
+    position: static;
+    /* top: 50%;
+    right: 20px; */
+  }
+
+  .need_a_gadget {
+    padding: 80px 0 0 20px;
+    margin-bottom: 100px;
+  }
+
+  .need_a_gadget .need_a_gadget_cta {
+    position: static;
+    top: 30%;
+    left: 20px;
+  }
 }
-
-
