@@ -6,7 +6,7 @@ import linkedin from "../../assets/images/linkedin.svg";
 import youtube from "../../assets/images/youtube.svg";
 import "./footer.css";
 import { Link } from "react-router-dom";
- 
+
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
@@ -16,10 +16,7 @@ const Footer = () => {
           <div className="logo">
             <img src={logo} alt="" />
           </div>
-          <br />
-          <br />
-          <br />
-          <br />
+
           <div className="social_media">
             <a href="https://www.facebook.com/">
               <img src={facebook} alt="" />
@@ -74,6 +71,23 @@ const Footer = () => {
               <a href="#datarecovery">Tech Services</a>
             </li>
           </ul>
+        </div>
+        <div className="social_media_for_mobile">
+          <a href="https://www.facebook.com/">
+            <img src={facebook} alt="" />
+          </a>
+          <a href="https://www.twitter.com/">
+            <img src={twitter} alt="" />
+          </a>
+          <a href="https://www.instagram.com/">
+            <img src={ig} alt="" />
+          </a>
+          <a href="https://www.linkedin.com/">
+            <img src={linkedin} alt="" />
+          </a>
+          <a href="https://www.youtube.com/">
+            <img src={youtube} alt="" />
+          </a>
         </div>
       </div>
       <div className="copyright">
