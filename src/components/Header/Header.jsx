@@ -9,7 +9,7 @@ import menu from "../../assets/images/mobile/menu.svg";
 
 export default function Header() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [isNavBarVisible, setIsNavBarVisible] = useState(true);
+  const [isNavBarVisible, setIsNavBarVisible] = useState(false);
 
   const showNavBar = () => {
     setIsNavBarVisible(!isNavBarVisible);
@@ -23,61 +23,63 @@ export default function Header() {
           : "navigation-container"
       }
     >
-      <div>
-        <img className="web_logo" src={logo} alt="logo" />
-        {isNavBarVisible ? (
-          <div className="menu_logo_cancel">
+      <div className="nav_children">
+        <div>
+          <img className="web_logo" src={logo} alt="logo" />
+          {isNavBarVisible ? (
+            <div className="menu_logo_cancel">
+              <img
+                // onClick={showNavBar}
+                className="mobile_logo"
+                src={logo3}
+                alt=""
+              />
+              <img onClick={showNavBar} src={cancel} alt="" />
+            </div>
+          ) : (
             <img
-              onClick={showNavBar}
+              // onClick={showNavBar}
               className="mobile_logo"
-              src={logo3}
+              src={logo2}
               alt=""
             />
-            <img src={cancel} alt="" />
+          )}
+        </div>
+        <div class="navigation-items">
+          <ul>
+            <li>
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/about">About</NavLink>
+            </li>
+            <li>
+              <NavLink to="/repairs">Repairs</NavLink>
+            </li>
+            <li>
+              <NavLink to="/sales">Sales</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">Contact us</NavLink>
+            </li>
+          </ul>
+        </div>
+        {isLoggedIn ? (
+          <div>
+            <h1>Hello, Joshua</h1>
           </div>
         ) : (
-          <img
-            onClick={showNavBar}
-            className="mobile_logo"
-            src={logo2}
-            alt=""
-          />
+          <div class="reglog">
+            <a class="reg" href="/">
+              Register
+            </a>
+            <a class="log" href="">
+              Login
+            </a>
+          </div>
         )}
+        <img onClick={showNavBar} className="menu_icon" src={menu} alt="" />
       </div>
-      <div class="navigation-items">
-        <ul>
-          <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/about">About</NavLink>
-          </li>
-          <li>
-            <NavLink to="/repairs">Repairs</NavLink>
-          </li>
-          <li>
-            <NavLink to="/sales">Sales</NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact">Contact us</NavLink>
-          </li>
-        </ul>
-      </div>
-      {isLoggedIn ? (
-        <div>
-          <h1>Hello, Joshua</h1>
-        </div>
-      ) : (
-        <div class="reglog">
-          <a class="reg" href="/">
-            Register
-          </a>
-          <a class="log" href="">
-            Login
-          </a>
-        </div>
-      )}
-      <img onClick={showNavBar} className="menu_icon" src={menu} alt="" />
     </nav>
   );
 }
