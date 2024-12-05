@@ -18,6 +18,7 @@
   gap: 24px;
   padding: 46px 65px;
   border-radius: 12px;
+  background: red;
 }
 
 .contact_section_1 .contact_card h3 {
@@ -161,7 +162,7 @@
     font-size: 18px;
     line-height: 24px;
   }
-  
+
   .contact_section_1 .contact_card p {
     font-size: 14px;
     line-height: 21px;
@@ -174,4 +175,35 @@
   .contact_section_3 .contact_cta_card {
     right: 10%;
   }
+}
+
+@media screen and (max-width: 430px) {
+  .contact_section_1 {
+    padding: 24px 0 48px;
+    grid-template-columns: 1fr;
+    margin-bottom: 48px;
+  }
+  
+  .contact_section_1 .contact_info {
+    display: none;
+  }
+
+  .contact_section_1 .contact_form {
+    padding: 24px;
+  }
+
+  .contact_section_1 .contact_form .form_field {
+    width: 100%;
+    gap: 24px;
+    flex-direction: column;
+  }
+
+  .contact_section_1 .contact_form form > button {
+    width: 100%;
+  }
+
+  .contact_section_3 .contact_cta_card {
+    position: static;
+  }
+
 }

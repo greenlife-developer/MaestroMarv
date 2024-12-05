@@ -1,5 +1,4 @@
 import Hero from "../../components/WebHero/Hero";
-import "./about.css";
 import aboutimg from "../../assets/images/aboutimg1.jpg";
 import aboutimg1 from "../../assets/images/aboutimg2.png";
 import Testimonials from "../../components/testimonials/Testimonials";
@@ -11,6 +10,7 @@ import jamiu from "../../assets/images/team/jamiu.png";
 import temilayo from "../../assets/images/team/temilayo.png";
 import praise from "../../assets/images/team/praise.png";
 import opeyemi from "../../assets/images/team/opeyemi.png";
+import "./about.css";
 
 const About = () => {
   const team = [

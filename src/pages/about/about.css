@@ -83,7 +83,6 @@
   right: 300px;
 }
 
-
 @media screen and (max-width: 1024px) {
   .about_section_1 {
     padding: 100px 20px 200px;
@@ -101,7 +100,7 @@
     line-height: 28px;
     margin-bottom: 17px;
   }
-  
+
   .about_section_1 .section_1_text p {
     font-size: 14px;
     font-weight: 400;
@@ -118,7 +117,7 @@
     line-height: 28px;
     margin-bottom: 20px;
   }
-  
+
   .about_section_2 .team {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -126,11 +125,65 @@
     grid-column-gap: 15px;
   }
 
-
   .about_section_3 .about_cta_card {
     position: absolute;
     bottom: 35%;
     right: 100px;
   }
-};
+}
+
+@media screen and (max-width: 430px) {
+  .about_section_1 {
+    padding: 48px 24px 190px;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .about_section_1 .section_1_text_img h3 {
+    font-size: 24px;
+    line-height: 29.26px;
+  }
+
+  .about_section_1 .section_1_text_img img {
+    width: 100%;
+  }
+
+  .about_section_1 .section_1_text h4 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .about_section_1 .section_1_text p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .about_section_2 h1 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 30px;
+  }
+
+  .about_section_2 .team {
+    grid-row-gap: 87px;
+    grid-column-gap: 10px;
+  }
+  
+
+  .about_section_2 .team .team_member h3 {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 14px 0 1px 9px;
+  }
+  
+  .about_section_2 .team .team_member p {
+    font-size: 10px;
+    line-height: 11px;
+    padding: 0 0 1px 9px;
+  }
+
+  .about_section_3 .about_cta_card {
+    position: static;
+  }
+}
 

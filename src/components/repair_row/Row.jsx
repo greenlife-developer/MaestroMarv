@@ -1,8 +1,9 @@
 const Row = ({ repair, position }) => {
   return (
     <div
-      style={{ flexDirection: position === "forward" ? "row" : "row-reverse" }}
-      className="repair_row"
+      className={
+        position === "forward" ? "repair_row row" : "repair_row row-reverse"
+      }
     >
       <div className="repair_row_img">
         <img src={repair?.img} alt="" />

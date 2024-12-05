@@ -73,6 +73,6 @@ const Repairs = () => {
       <Footer />
     </div>
   );
-};
+}; 
 
 export default Repairs; 
